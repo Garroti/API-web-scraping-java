@@ -2,6 +2,8 @@ package com.gabryelmacedo.scrapingbrasileiraoapi.dto;
 
 import java.io.Serializable;
 
+import com.gabryelmacedo.scrapingbrasileiraoapi.util.StatusPartida;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +17,7 @@ public class PartidaGoogleDTO implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
-	private String statusPartida;
+	private StatusPartida statusPartida;
 	private String tempoPartida;
 	
 	//Informações equipe casa
